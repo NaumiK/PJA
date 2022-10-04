@@ -22,3 +22,5 @@ class Pattern3(Pattern):
           dist = (dlat**2+dlon**2)**0.5
           if r/delta > 350:
               transactions[i]['fraud_pattern'] = 'different_city'
+              self.printer(transactions[i])
+      self.printer(transactions)

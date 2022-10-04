@@ -7,7 +7,7 @@ from patterns import *
 
 if __name__ == "__main__":
     pat: Pattern
-    pat = Pattern2()
+    pat = Pattern3()
     
     pat.printer = pprint
 

@@ -1,7 +1,8 @@
 from geopy.geocoders import Nominatim
+from patterns.pattern import Pattern
 from math import pi
 
-class different_city_pattern(pattern):
+class Pattern3(Pattern):
   def __init__(self):
     super().__init__()
 
